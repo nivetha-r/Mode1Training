@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>hcl</groupId>
-  <artifactId>CalcDemo</artifactId>
+  <artifactId>SpringEmployShow</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>CalcDemo Maven Webapp</name>
+  <name>SpringEmployShow Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -16,11 +16,27 @@
     </dependency>
     <dependency>
     <groupId>org.springframework</groupId>
+    <artifactId>spring-jdbc</artifactId>
+    <version>3.0.5.RELEASE</version>
+</dependency>
+
+    <dependency>
+		   <groupId>mysql</groupId>
+	      <artifactId>mysql-connector-java</artifactId>
+      <version>5.1.5</version>
+	</dependency>
+     <dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>jstl</artifactId>
+    <version>1.2</version>
+</dependency>
+    <dependency>
+    <groupId>org.springframework</groupId>
     <artifactId>spring-webmvc</artifactId>
     <version>3.0.1.RELEASE</version>
 </dependency>
   </dependencies>
   <build>
-    <finalName>CalcDemo</finalName>
+    <finalName>SpringEmployShow</finalName>
   </build>
 </project>

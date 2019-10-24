@@ -124,7 +124,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="BeanDemos1" path="/BeanDemos1" reloadable="true" source="org.eclipse.jst.jee.server:BeanDemos1"/><Context docBase="BankProjectJsp1" path="/BankProjectJsp1" reloadable="true" source="org.eclipse.jst.jee.server:BankProjectJsp1"/><Context docBase="InventoryProjectJsp" path="/InventoryProjectJsp" reloadable="true" source="org.eclipse.jst.jee.server:InventoryProjectJsp"/></Host>
+      <Context docBase="HelloWorld" path="/HelloWorld" reloadable="true" source="org.eclipse.jst.j2ee.server:HelloWorld"/><Context docBase="CalcDemo" path="/CalcDemo" reloadable="true" source="org.eclipse.jst.j2ee.server:CalcDemo"/><Context docBase="FullNameDemo" path="/FullNameDemo" reloadable="true" source="org.eclipse.jst.j2ee.server:FullNameDemo"/><Context docBase="SpringNamesList" path="/SpringNamesList" reloadable="true" source="org.eclipse.jst.j2ee.server:SpringNamesList"/><Context docBase="SpringMvcLogin" path="/SpringMvcLogin" reloadable="true" source="org.eclipse.jst.j2ee.server:SpringMvcLogin"/><Context docBase="SpringEmployShow" path="/SpringEmployShow" reloadable="true" source="org.eclipse.jst.j2ee.server:SpringEmployShow"/><Context docBase="DeptShow" path="/DeptShow" reloadable="true" source="org.eclipse.jst.j2ee.server:DeptShow"/></Host>
     </Engine>
   </Service>
 </Server>
