@@ -124,7 +124,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="HelloWorld" path="/HelloWorld" reloadable="true" source="org.eclipse.jst.j2ee.server:HelloWorld"/><Context docBase="CalcDemo" path="/CalcDemo" reloadable="true" source="org.eclipse.jst.j2ee.server:CalcDemo"/><Context docBase="FullNameDemo" path="/FullNameDemo" reloadable="true" source="org.eclipse.jst.j2ee.server:FullNameDemo"/><Context docBase="SpringNamesList" path="/SpringNamesList" reloadable="true" source="org.eclipse.jst.j2ee.server:SpringNamesList"/><Context docBase="SpringMvcLogin" path="/SpringMvcLogin" reloadable="true" source="org.eclipse.jst.j2ee.server:SpringMvcLogin"/><Context docBase="SpringEmployShow" path="/SpringEmployShow" reloadable="true" source="org.eclipse.jst.j2ee.server:SpringEmployShow"/><Context docBase="DeptShow" path="/DeptShow" reloadable="true" source="org.eclipse.jst.j2ee.server:DeptShow"/></Host>
+      <Context docBase="EmployCrudHib" path="/EmployCrudHib" reloadable="true" source="org.eclipse.jst.j2ee.server:EmployCrudHib"/><Context docBase="DeptCrudHib" path="/DeptCrudHib" reloadable="true" source="org.eclipse.jst.j2ee.server:DeptCrudHib"/><Context docBase="CollegeProject" path="/CollegeProject" reloadable="true" source="org.eclipse.jst.j2ee.server:CollegeProject"/><Context docBase="HotelProject" path="/HotelProject" reloadable="true" source="org.eclipse.jst.j2ee.server:HotelProject"/></Host>
     </Engine>
   </Service>
 </Server>
