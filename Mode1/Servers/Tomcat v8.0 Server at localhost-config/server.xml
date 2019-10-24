@@ -124,7 +124,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="ServletDemos" path="/ServletDemos" reloadable="true" source="org.eclipse.jst.jee.server:ServletDemos"/><Context docBase="Session Management" path="/Session_Management" reloadable="true" source="org.eclipse.jst.jee.server:Session Management"/><Context docBase="BankProject" path="/BankProject" reloadable="true" source="org.eclipse.jst.jee.server:BankProject"/><Context docBase="InventoryProject" path="/InventoryProject" reloadable="true" source="org.eclipse.jst.jee.server:InventoryProject"/><Context docBase="LibraryProject1" path="/LibraryProject1" reloadable="true" source="org.eclipse.jst.jee.server:LibraryProject1"/><Context docBase="CookieDemo2" path="/CookieDemo2" reloadable="true" source="org.eclipse.jst.jee.server:CookieDemo2"/><Context docBase="EmployeeProject" path="/EmployeeProject" reloadable="true" source="org.eclipse.jst.jee.server:EmployeeProject"/></Host>
+      <Context docBase="BeanDemos1" path="/BeanDemos1" reloadable="true" source="org.eclipse.jst.jee.server:BeanDemos1"/><Context docBase="BankProjectJsp1" path="/BankProjectJsp1" reloadable="true" source="org.eclipse.jst.jee.server:BankProjectJsp1"/><Context docBase="InventoryProjectJsp" path="/InventoryProjectJsp" reloadable="true" source="org.eclipse.jst.jee.server:InventoryProjectJsp"/></Host>
     </Engine>
   </Service>
 </Server>
