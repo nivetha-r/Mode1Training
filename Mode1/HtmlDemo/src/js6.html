@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function show() {
+	var res="" ;
+	res+="selected Dropdown value is " + frmData.names.value;
+	document.getElementById("res").innerHTML=res;
+}</script>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form name="frmData">
+<center>
+<span id="res">
+</span>
+<br/><br/>
+Names:
+<select name="names" onchange="show()">
+<option value="Nive">Nive</option>
+<option value="Nisha">Nisha</option>
+<option value="Lavanya">Lavanya</option>
+<option value="Dhananya">Dhananya</option>
+<option value="Ridhanya">Ridhanya</option>
+</select></center></form>
+
+</body>
+</html>

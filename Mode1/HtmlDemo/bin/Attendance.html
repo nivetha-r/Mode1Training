@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function attdemo() {
+	var res=" ";
+	if(frmAtt.chkNivetha.checked==true) {
+		res+="Nivetha is present <br/>";
+	}else {
+		res+="Nivetha is absent <br/>";
+	}
+	document.getElementById("res").innerHTML=res;
+	
+
+	if(frmAtt.chkKirubaLaxmi.checked==true) {
+		res+="KirubaLaxmi is present <br/>";
+	}else {
+		res+="KirubaLaxmi is absent <br/>";
+	}
+	document.getElementById("res").innerHTML=res;
+	
+
+	if(frmAtt.chkSriKeerthna.checked==true) {
+		res+="SriKeerthna is present <br/>";
+	}else {
+		res+="SriKeerthna is absent <br/>";
+	}
+	document.getElementById("res").innerHTML=res;
+	
+
+	if(frmAtt.chkVishalakshi.checked==true) {
+		res+="Vishalakshi is present <br/>";
+	}else {
+		res+="Vishalakshi is absent <br/>";
+	}
+	document.getElementById("res").innerHTML=res;
+}
+	
+</script>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form name="frmAtt">
+<center>
+Nivetha :
+<input type="checkbox" name="chkNivetha" onchange="attdemo()" />
+<br/><br/>
+KirubaLaxmi :
+<input type="checkbox" name="chkKirubaLaxmi" onchange="attdemo()" />
+<br/><br/>
+SriKeerthna:
+<input type="checkbox" name="chkSriKeerthna" onchange="attdemo()" />
+<br/><br/>
+Vishalakshi :
+<input type="checkbox" name="chkVishalakshi" onchange="attdemo()"/>
+<br/><br/>
+<span id="res">
+</span>
+</center></form>
+
+</body>
+</html>
